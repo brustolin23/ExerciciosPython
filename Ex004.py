@@ -1,0 +1,8 @@
+var = input("Digite algo")
+print("Valor digitado: '{}'".format(var))
+print("Tipo do valor: {}".format(type(var)))
+print("É um numero? {}".format(var.isnumeric()))
+print("Só possui letras? {}".format(var.isalpha()))
+print("É alfanumérico? {}".format(var.isalnum()))
+print("Tem somente maiúsculas? {}".format(var.isupper()))
+print("Tem somente minúsculas? {}".format(var.islower()))
