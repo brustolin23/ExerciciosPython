@@ -6,6 +6,6 @@ pricedist = distance * 0.15
 priceday = days * 60
 total = priceday + pricedist
 
-print("O valor total é R${}, dividido em:".format(round(total, 2)))
-print("R${} pela quantidade de quilômetros".format(round(pricedist, 2)))
-print("R${} pela quantidade de dias".format(round(priceday, 2)))
+print("O valor total é R${:.2f}, dividido em:".format(round(total, 2)))
+print("R${:.2f} pela quantidade de quilômetros".format(round(pricedist, 2)))
+print("R${:.2f} pela quantidade de dias".format(round(priceday, 2)))
