@@ -4,6 +4,7 @@ import pygame
 pygame.mixer.init()
 pygame.init()
 pygame.mixer.music.load('music/exe021.mp3')
+pygame.mixer.music.set_volume(0.7)
 pygame.mixer.music.play(loops=0,start=0.0)
 input("Pressione enter para encerrar")
 pygame.mixer.music.stop()
